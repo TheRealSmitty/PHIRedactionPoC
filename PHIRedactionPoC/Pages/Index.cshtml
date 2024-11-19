@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center col-10">
+    <h1 class="display-4">PHI Redaction PoC</h1>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <div class="row" style="padding: 10px;">
+                <input id="GetData" name="file" type="file" accept=".txt" multiple />
+            </div>
+        </div>
+        <div class="mb-3">
+            <div class="row" style="padding: 10px;">
+                <input id="BtnGetRedactedData" type="submit" class="btn btn-lg-normal btn-primary" value="Get Redacted Data" />
+            </div>
+        </div>
+    </form>
+</div>
