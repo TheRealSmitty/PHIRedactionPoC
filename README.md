@@ -2,7 +2,7 @@
 
 Simple String Parser
 
-Nothing special is required to run the application. Run.
+Nothing special is required to run the application.
 
 Select the file(s) you want to parse on the index web page. Then press the 'Get Redacted Data' button.
 
